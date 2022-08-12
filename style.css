@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #411530;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.content {
+    justify-content: center;
+}
+
+.err-content {
+    margin-top: 50px;
+}
+
+.err-wd {
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+.err-tp {
+    position: absolute;
+}
+
+.illus-pic {
+    margin-top: 150px;
+    position: relative;
+}
+
+#hw-pic {
+    width: 200px;
+    /*filter: drop-shadow(5px 5px 10px #121212);*/
+    animation-name: fly;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+#illus-shadow {
+    background-color: rgb(16, 16, 16);
+    /*filter: blur(10px);*/
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 11px;
+    animation-name: shadow;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+        width: 80px;
+    }
+}
+
+.not-found-wd {
+    font-size: 25px;
+    font-weight: bold;
+    color: #F5C7A9 !important;
+}
+
+.not-found-tp {
+    margin-top: 50px;
+}
+
+.word {
+    color: #d1512d;
+}
+
+.desc-wd {
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #F5E8E4 !important;
+}
+
+.desc-tp {
+    margin-top: 25px;
+}
+
+.home-btn {
+    margin-top: 50px;
+}
+
+#hm-btn {
+    background-color: #1197cc;
+    color: #411530;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 4px 4px #121212;
+}
+
+
+
+
+
+

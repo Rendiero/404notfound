@@ -1,0 +1,19 @@
+@media all and (max-width: 480px) {
+    .err-wd {
+        font-size: 80px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .err-wd {
+        font-size: 125px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width:1024) {
+    
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
