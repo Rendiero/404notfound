@@ -7,22 +7,28 @@
 body {
     font-family: "Ubuntu", sans-serif;
     background-color: #411530;
+    width: 100%;
+    height: 100%;
 }
 
 .main {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    align-content: center;
+    margin-top: 70px;
 }
 
 .content {
+    width: 50%;
+    display: flex;
     justify-content: center;
 }
 
 .err-content {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .err-wd {
@@ -41,7 +47,7 @@ body {
 
 #hw-pic {
     width: 200px;
-    /*filter: drop-shadow(5px 5px 10px #121212);*/
+    /*filter: drop-shadow(10px 5px 80px #000000);*/
     animation-name: fly;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
@@ -105,9 +111,9 @@ body {
 }
 
 .desc-wd {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    line-height: 20px;
+    line-height: 25px;
     color: #F5E8E4 !important;
 }
 
