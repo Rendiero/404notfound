@@ -23,17 +23,17 @@
     }
 
     .err-wd {
-        font-size: 125px;
+        font-size: 15vw;
     }
 }
 
 @media screen and (max-width: 480px) {
     .content {
-        width: 80%;
+        width: 90%;
     }
 
     .err-wd {
-        font-size: 50px;
+        font-size: 15vw;
     }
 }
 
